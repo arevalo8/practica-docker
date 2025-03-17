@@ -10,7 +10,7 @@ Este documento describe las configuraciones realizadas en los archivos `docker-c
 
 Se han configurado dos servicios:  
 
-### 🖥**Drupal**
+### **Drupal**
 - Se utiliza la imagen oficial de **Drupal** en su versión más reciente (`latest`).  
 - Se expone en el puerto **81** del host, lo que permite acceder a la instalación de Drupal desde `http://localhost:81`.  
 - Se usa un **volumen** (`drupal_data`) para almacenar los archivos de Drupal y garantizar que los datos no se pierdan si el contenedor se reinicia.  
